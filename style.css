@@ -4,7 +4,7 @@ html {
   color: #2d3248;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-  height: 100vh;
+  height: 100%;
 }
 
 *,
@@ -25,22 +25,23 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  min-height: 100vh;
-}
-
-svg {
-  z-index: -1;
-  position: absolute;
+  height: 100%;
 }
 
 .svg-top-left {
+  z-index: -1;
+  position: absolute;
   right: 50%;
   bottom: 40%;
+  overflow: hidden;
 }
 
 .svg-bottom-right {
+  z-index: -1;
+  position: absolute;
   left: 40%;
   top: 50%;
+  overflow: hidden;
 }
 
 .card {
