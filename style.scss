@@ -32,6 +32,10 @@ svg {
   position: absolute;
 }
 
+// an alternative to setting up two SVG divs would be to make the SVGs background images for the body, then use background position to position them:
+
+// background-position: -100% 75%, 200% -50%;
+
 .svg-top-left {
   right: 50%;
   bottom: 40%;
