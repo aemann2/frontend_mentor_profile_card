@@ -45,8 +45,9 @@ svg {
 .card {
   width: 325px;
   background-color: white;
-  border-radius: 10px;
+  border-radius: 12px;
   text-align: center;
+  box-shadow: 1px 1px 20px 5px #00000029;
 
   &__header-bg {
     height: 7rem;
@@ -94,5 +95,3 @@ svg {
     margin: -1em 0 2em 0;
   }
 }
-
-// background-image: url("bg-pattern-card.svg");
