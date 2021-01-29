@@ -11,7 +11,7 @@ html {
   color: $font-primary-color;
   box-sizing: border-box;
   height: 100%;
-  // overflow: hidden;
+  overflow: hidden;
 }
 *,
 *:before,
@@ -25,30 +25,11 @@ body {
   justify-content: center;
   align-items: center;
   min-height: 100%;
-  background-image: url('/images/bg-pattern-top.svg'),
-    url('/images/bg-pattern-bottom.svg');
+  background-image: url('images/bg-pattern-top.svg'),
+    url('images/bg-pattern-bottom.svg');
   background-position: bottom 40vh right 48vw, top 50vh left 48vw;
   background-repeat: no-repeat;
 }
-
-// svg {
-//   z-index: -1;
-//   position: absolute;
-// }
-
-// an alternative to setting up two SVG divs would be to make the SVGs background images for the body, then use background position to position them:
-
-// background-position: -100% 75%, 200% -50%;
-
-// .svg-top-left {
-//   right: 50%;
-//   bottom: 40%;
-// }
-
-// .svg-bottom-right {
-//   left: 40%;
-//   top: 50%;
-// }
 
 .card {
   width: 325px;
@@ -102,4 +83,10 @@ body {
 .color--grey {
   font-weight: 400;
   color: $font-drk-greyed-color;
+}
+
+@media only screen and (orientation: landscape) {
+  html {
+    overflow: scroll;
+  }
 }
