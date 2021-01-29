@@ -27,7 +27,7 @@ body {
       -ms-flex-align: center;
           align-items: center;
   min-height: 100%;
-  background-image: url("images/bg-pattern-top.svg"), url("images/bg-pattern-bottom.svg");
+  background-image: url("./images/bg-pattern-top.svg"), url("./images/bg-pattern-bottom.svg");
   background-position: -150% -20%, 200% 200%;
   background-repeat: no-repeat;
 }
