@@ -1,0 +1,101 @@
+html {
+  font-family: 'Kumbh Sans', sans-serif;
+  font-size: 18px;
+  color: #2d3248;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  height: 100%;
+}
+
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: inherit;
+          box-sizing: inherit;
+}
+
+body {
+  background-color: #19a2ae;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  min-height: 100%;
+}
+
+svg {
+  z-index: -1;
+  position: absolute;
+}
+
+.svg-top-left {
+  right: 50%;
+  bottom: 40%;
+}
+
+.svg-bottom-right {
+  left: 40%;
+  top: 50%;
+}
+
+.card {
+  width: 325px;
+  background-color: white;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.card__header-bg {
+  height: 7rem;
+  background-image: url("images/bg-pattern-card.svg");
+  border-radius: 10px 10px 0 0;
+}
+
+.card__img {
+  border-radius: 50%;
+  border: 5px solid white;
+  position: relative;
+  top: -3rem;
+}
+
+.card__main {
+  margin: -3em 0 1em 0;
+}
+
+.card__name-and-age, .card__social-numbers {
+  font-weight: 700;
+}
+
+.card__age {
+  margin-left: 0.4em;
+}
+
+.card--grey-text {
+  font-weight: 400;
+  color: #6a6f81;
+}
+
+.card__city {
+  font-size: 0.8em;
+}
+
+.card__social-data {
+  border-top: 1px solid rgba(150, 150, 150, 0.3);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.card__social-number-title {
+  font-size: 0.7em;
+  margin: -1em 0 2em 0;
+}
+/*# sourceMappingURL=style.css.map */

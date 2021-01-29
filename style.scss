@@ -1,0 +1,97 @@
+// Color variables
+
+$background-color: rgb(25, 162, 174);
+$font-primary-color: rgb(45, 50, 72);
+$font-drk-greyed-color: rgb(106, 111, 129);
+$font-transp-grey-color: rgba(150, 150, 150, 0.3);
+
+html {
+  font-family: 'Kumbh Sans', sans-serif;
+  font-size: 18px;
+  color: $font-primary-color;
+  box-sizing: border-box;
+  height: 100%;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+  background-color: $background-color;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100%;
+}
+
+svg {
+  z-index: -1;
+  position: absolute;
+}
+
+.svg-top-left {
+  right: 50%;
+  bottom: 40%;
+}
+
+.svg-bottom-right {
+  left: 40%;
+  top: 50%;
+}
+
+.card {
+  width: 325px;
+  background-color: white;
+  border-radius: 10px;
+  text-align: center;
+
+  &__header-bg {
+    height: 7rem;
+    background-image: url('images/bg-pattern-card.svg');
+    border-radius: 10px 10px 0 0;
+  }
+
+  &__img {
+    border-radius: 50%;
+    border: 5px solid white;
+    position: relative;
+    top: -3rem;
+  }
+
+  &__main {
+    margin: -3em 0 1em 0;
+  }
+
+  &__name-and-age,
+  &__social-numbers {
+    font-weight: 700;
+  }
+
+  &__age {
+    margin-left: 0.4em;
+  }
+
+  &--grey-text {
+    font-weight: 400;
+    color: $font-drk-greyed-color;
+  }
+
+  &__city {
+    font-size: 0.8em;
+  }
+
+  &__social-data {
+    border-top: 1px solid $font-transp-grey-color;
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  &__social-number-title {
+    font-size: 0.7em;
+    margin: -1em 0 2em 0;
+  }
+}
+
+// background-image: url("bg-pattern-card.svg");
