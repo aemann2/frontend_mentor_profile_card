@@ -60,6 +60,7 @@ body {
 
 .card__name-and-age, .card__social-numbers {
   font-weight: 700;
+  font-size: 1rem;
 }
 
 .card__age {
