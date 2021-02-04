@@ -2,6 +2,10 @@
 
 ## Background
 
+<br>
+
+[Link to my solution](https://aemann2.github.io/frontend_mentor_profile_card/)
+
 This was an exercise on making a profile card. It was my first time using **BEM**, which I found to be extremely useful, especially when paired with **SASS**. I think the final code turned out to be very well-organized and readable.
 
 The only thing that gave me trouble here was the positioning of the SVG image. At first I tried to put the image in the HTML, but it took up space in an odd way and caused positioning problems in the mobile display. It worked better as a background image in the CSS, which also helped to clean up my HTML code.
